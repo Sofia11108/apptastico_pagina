@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
     for (let i = 0; i < elementos.length; i++) {
       let alturaElemento = elementos[i].offsetTop;
     
-      if(alturaElemento  - 300 < scrollTop) {
+      if(alturaElemento  - 400 < scrollTop) {
         elementos[i].style.opacity = 1;
        
         if (i == 0) {
